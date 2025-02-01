@@ -31,7 +31,7 @@
 }
 
 .controls button {
-  background-color: #007bff;
+  background-color: #ff6f91;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -42,7 +42,7 @@
 }
 
 .controls button:hover {
-  background-color: #0056b3;
+  background-color: #ff6f91;
 }
 
 .controls input[type="range"] {

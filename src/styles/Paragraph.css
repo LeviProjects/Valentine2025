@@ -1,0 +1,13 @@
+.loveParagraph {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
