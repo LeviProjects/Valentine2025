@@ -46,7 +46,7 @@ const MusicController = () => {
   return (
     <div className="music-controller modal-content">
       <img
-        src={`${process.env.PUBLIC_URL}/album-art.jpg`}
+        src={`${process.env.PUBLIC_URL}/media/album-art.jpg`}
         alt="Album Art"
         className="album-art"
       />
@@ -64,7 +64,7 @@ const MusicController = () => {
           />
         </div>
       </div>
-      <audio ref={audioRef} src={`${process.env.PUBLIC_URL}/music.mp3`} />
+      <audio ref={audioRef} src={`${process.env.PUBLIC_URL}/audio/music.mp3`} />
     </div>
   );
 };

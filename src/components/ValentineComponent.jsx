@@ -21,7 +21,7 @@ const ValentineComponent = () => {
   // Function to handle "Yes" button click
   const handleYesClick = () => {
     setIsYesClicked(true);
-    const audio = new Audio(`${process.env.PUBLIC_URL}/honk.mp3`);
+    const audio = new Audio(`${process.env.PUBLIC_URL}/audio/honk.mp3`);
     audio.play().catch((error) => {
       console.error("Error playing audio:", error);
     });
