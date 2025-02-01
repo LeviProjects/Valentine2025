@@ -3,7 +3,7 @@ import "../styles/Paragraph.css";
 
 const Paragraph = ({ text }) => {
   return (
-    <div className="modal-content">
+    <div className="modal-content paragraph">
       <p className="loveParagraph">
         Hello my beautiful love. This is my official request to have the
         privilege of being your Valentine. I cannot believe it has been another
@@ -33,6 +33,10 @@ const Paragraph = ({ text }) => {
         you are. You are an incredibly beautiful person, your soul shining
         brighter than everything around it, like the flowers down below. I love
         you so so much my beautiful Baby 💖{" "}
+      </p>
+      <p className="loveParagraph">
+        (P.S. I tried making the flowers tulips, but after a lot of attempts
+        this was the best I could get them to look)
       </p>
     </div>
   );

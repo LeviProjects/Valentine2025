@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import valentineGif from "./valentine.gif"; // Replace with your GIF file
 import "../styles/ValentineComponent.css"; // For styling the modal
 import Paragraph from "./Paragraph";
 import MusicController from "./MusicController";
@@ -73,7 +72,10 @@ const ValentineComponent = () => {
           </>
         ) : (
           <div className="gif-container">
-            <img src={valentineGif} alt="Valentine GIF" />
+            <img
+              src={`${process.env.PUBLIC_URL}/media/valentine.gif`}
+              alt="Valentine GIF"
+            />
             <h2>Yay! Happy Future Valentine's Day mi amor!!! 💖</h2>
             <h2>P.S. (You better have not clicked no smh)</h2>
           </div>
