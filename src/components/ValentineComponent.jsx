@@ -21,10 +21,11 @@ const ValentineComponent = () => {
   // Function to handle "Yes" button click
   const handleYesClick = () => {
     setIsYesClicked(true);
-    const audio = new Audio("/honk.mp3"); // Correct path to the audio file in the public directory
-    audio.play();
+    const audio = new Audio(`${process.env.PUBLIC_URL}/honk.mp3`);
+    audio.play().catch((error) => {
+      console.error("Error playing audio:", error);
+    });
   };
-
   // Function to handle "No" button click
   const handleNoClick = () => {
     const modalContent = document.querySelector(".modal-content");

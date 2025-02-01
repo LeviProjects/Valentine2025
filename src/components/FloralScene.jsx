@@ -8,7 +8,7 @@ const FloralScene = () => {
     const c = setTimeout(() => {
       if (rootRef.current) {
         rootRef.current.classList.remove("not-loaded");
-        console.log("not-loaded class removed");
+        console.log("not-loaded className removed");
       }
       clearTimeout(c);
     }, 1000);
@@ -47,52 +47,52 @@ const FloralScene = () => {
           </div>
         </div>
 
-        <div class="flower flower--2">
-          <div class="flower__leafs flower__leafs--2">
-            <div class="flower__leaf flower__leaf--1"></div>
-            <div class="flower__leaf flower__leaf--2"></div>
-            <div class="flower__leaf flower__leaf--3"></div>
-            <div class="flower__leaf flower__leaf--4"></div>
-            <div class="flower__white-circle"></div>
+        <div className="flower flower--2">
+          <div className="flower__leafs flower__leafs--2">
+            <div className="flower__leaf flower__leaf--1"></div>
+            <div className="flower__leaf flower__leaf--2"></div>
+            <div className="flower__leaf flower__leaf--3"></div>
+            <div className="flower__leaf flower__leaf--4"></div>
+            <div className="flower__white-circle"></div>
 
-            <div class="flower__light flower__light--1"></div>
-            <div class="flower__light flower__light--2"></div>
-            <div class="flower__light flower__light--3"></div>
-            <div class="flower__light flower__light--4"></div>
-            <div class="flower__light flower__light--5"></div>
-            <div class="flower__light flower__light--6"></div>
-            <div class="flower__light flower__light--7"></div>
-            <div class="flower__light flower__light--8"></div>
+            <div className="flower__light flower__light--1"></div>
+            <div className="flower__light flower__light--2"></div>
+            <div className="flower__light flower__light--3"></div>
+            <div className="flower__light flower__light--4"></div>
+            <div className="flower__light flower__light--5"></div>
+            <div className="flower__light flower__light--6"></div>
+            <div className="flower__light flower__light--7"></div>
+            <div className="flower__light flower__light--8"></div>
           </div>
-          <div class="flower__line">
-            <div class="flower__line__leaf flower__line__leaf--1"></div>
-            <div class="flower__line__leaf flower__line__leaf--2"></div>
-            <div class="flower__line__leaf flower__line__leaf--3"></div>
-            <div class="flower__line__leaf flower__line__leaf--4"></div>
+          <div className="flower__line">
+            <div className="flower__line__leaf flower__line__leaf--1"></div>
+            <div className="flower__line__leaf flower__line__leaf--2"></div>
+            <div className="flower__line__leaf flower__line__leaf--3"></div>
+            <div className="flower__line__leaf flower__line__leaf--4"></div>
           </div>
         </div>
-        <div class="flower flower--3">
-          <div class="flower__leafs flower__leafs--3">
-            <div class="flower__leaf flower__leaf--1"></div>
-            <div class="flower__leaf flower__leaf--2"></div>
-            <div class="flower__leaf flower__leaf--3"></div>
-            <div class="flower__leaf flower__leaf--4"></div>
-            <div class="flower__white-circle"></div>
+        <div className="flower flower--3">
+          <div className="flower__leafs flower__leafs--3">
+            <div className="flower__leaf flower__leaf--1"></div>
+            <div className="flower__leaf flower__leaf--2"></div>
+            <div className="flower__leaf flower__leaf--3"></div>
+            <div className="flower__leaf flower__leaf--4"></div>
+            <div className="flower__white-circle"></div>
 
-            <div class="flower__light flower__light--1"></div>
-            <div class="flower__light flower__light--2"></div>
-            <div class="flower__light flower__light--3"></div>
-            <div class="flower__light flower__light--4"></div>
-            <div class="flower__light flower__light--5"></div>
-            <div class="flower__light flower__light--6"></div>
-            <div class="flower__light flower__light--7"></div>
-            <div class="flower__light flower__light--8"></div>
+            <div className="flower__light flower__light--1"></div>
+            <div className="flower__light flower__light--2"></div>
+            <div className="flower__light flower__light--3"></div>
+            <div className="flower__light flower__light--4"></div>
+            <div className="flower__light flower__light--5"></div>
+            <div className="flower__light flower__light--6"></div>
+            <div className="flower__light flower__light--7"></div>
+            <div className="flower__light flower__light--8"></div>
           </div>
-          <div class="flower__line">
-            <div class="flower__line__leaf flower__line__leaf--1"></div>
-            <div class="flower__line__leaf flower__line__leaf--2"></div>
-            <div class="flower__line__leaf flower__line__leaf--3"></div>
-            <div class="flower__line__leaf flower__line__leaf--4"></div>
+          <div className="flower__line">
+            <div className="flower__line__leaf flower__line__leaf--1"></div>
+            <div className="flower__line__leaf flower__line__leaf--2"></div>
+            <div className="flower__line__leaf flower__line__leaf--3"></div>
+            <div className="flower__line__leaf flower__line__leaf--4"></div>
           </div>
         </div>
         <div className="grow-ans" style={{ "--d": "1.2s" }}>
@@ -101,34 +101,34 @@ const FloralScene = () => {
             <div className="flower__g-long__bottom"></div>
           </div>
         </div>
-        <div class="growing-grass">
-          <div class="flower__grass flower__grass--1">
-            <div class="flower__grass--top"></div>
-            <div class="flower__grass--bottom"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--1"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--2"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--3"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--4"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--5"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--6"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--7"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--8"></div>
-            <div class="flower__grass__overlay"></div>
+        <div className="growing-grass">
+          <div className="flower__grass flower__grass--1">
+            <div className="flower__grass--top"></div>
+            <div className="flower__grass--bottom"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--1"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--2"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--3"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--4"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--5"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--6"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--7"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--8"></div>
+            <div className="flower__grass__overlay"></div>
           </div>
         </div>
-        <div class="growing-grass">
-          <div class="flower__grass flower__grass--2">
-            <div class="flower__grass--top"></div>
-            <div class="flower__grass--bottom"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--1"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--2"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--3"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--4"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--5"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--6"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--7"></div>
-            <div class="flower__grass__leaf flower__grass__leaf--8"></div>
-            <div class="flower__grass__overlay"></div>
+        <div className="growing-grass">
+          <div className="flower__grass flower__grass--2">
+            <div className="flower__grass--top"></div>
+            <div className="flower__grass--bottom"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--1"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--2"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--3"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--4"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--5"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--6"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--7"></div>
+            <div className="flower__grass__leaf flower__grass__leaf--8"></div>
+            <div className="flower__grass__overlay"></div>
           </div>
         </div>
         <div className="grow-ans" style={{ "--d": "2.8s" }}>
